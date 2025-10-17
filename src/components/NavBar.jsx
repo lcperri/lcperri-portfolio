@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
   return (
     <header className="mb-4 text-center">
-      <h1 className="  text-xl md:text-3xl text-black bg-yellow-200 p-4 border-4 border-red-400 inline-block shadow-lg animate-pulse">
+      <h1 className="  text-xl md:text-3xl text-black bg-yellow-200 p-4 border-3 border-red-400 inline-block shadow-lg animate-pulse">
           💾 BIENVENIDO A MI PORTAFOLIO
       </h1>
       <nav className="backdrop-blur-lg rounded shadow-lg bg-black/90 bordertext-white underline mt-4 flex justify-center 
