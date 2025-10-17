@@ -14,13 +14,13 @@ const ProjectsList = () => {
         {
             title: "Weather App",
             description: "Busca el clima de una ciudad, mira sus detalles adicionales y pinéala en favoritos.",
-            tech: ["React", "JS", "Tailwind", "API Rest"],
+            tech: ["React", "JS", "CSS", "API Rest"],
             gifUrl: "https://i.postimg.cc/tR5m6RD0/weather-app-screen.png",
             projectUrl: "https://weather-app-sage-two-25.vercel.app/"
         },
         {
             title: "Toast Notifications",
-            description: "Una app que muestra como se pueden hacer notificaciones en tiempo real aplicando buenas prácticas en React.",
+            description: "Una app que muestra notificaciones en tiempo real aplicando buenas prácticas en React.",
             tech: ["React", "Node.js", "CSS", "JS"],
             gifUrl: "https://i.postimg.cc/nVkwmV2y/toast-notifications-screen.png",
             projectUrl: "http://toast-notifications-ten.vercel.app/"
