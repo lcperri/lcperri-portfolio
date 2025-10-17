@@ -24,7 +24,7 @@ import TypingLoop from './TypingLoop'
             <div className="flex flex-col items-center text-center">
                 <div className='md:w-[80%] lg:w-[63%] p-10 md:py-10 lg:py-15 space-y-8 lg:space-y-12 md:text-xl lg:text-xl'>
                     <div className="text-left md:mt-6 ">                      
-                        <div className='text-xl mb-8 md:text-2xl lg:text-3xl md:mb-16 font-bold'>
+                        <div className='mb-8 text-xl md:text-2xl lg:text-3xl md:mb-16 font-bold'>
                             <TypingLoop/>
                         </div> 
                         <span className='text-red-400 font-bold'>

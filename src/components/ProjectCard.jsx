@@ -6,7 +6,7 @@ const ProjectCard = ({ key, title, description, tech, gifUrl, projectUrl }) => {
     relative p-[3px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 animate-[rgb_3s_linear_infinite] shadow-[0_0_20px_rgba(236,72,153,0.6)]">
         <div className="lg:flex gap-4 p-8 bg-black/90 backdrop-blur-md text-white">
           <div index={key} className='flex flex-col gap-4 lg:w-[55%]' >
-            <h3 className="font-black mb-2">{title.toUpperCase()}</h3>
+            <h3 className="font-black text-xl mb-2">{title.toUpperCase()}</h3>
             <p className="">{description}</p>
             <div className="flex flex-wrap">
               {tech.map((t, index) => (
@@ -28,16 +28,7 @@ const ProjectCard = ({ key, title, description, tech, gifUrl, projectUrl }) => {
             </a>
           </div>
         </div>
-     
       
-      {/* <div className="min-h-screen flex items-center justify-center bg-gray-950">
-      <div className="relative p-[2px] rounded-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 animate-[rgb_3s_linear_infinite] shadow-[0_0_20px_rgba(236,72,153,0.6)]">
-        <div className="rounded-2xl bg-gray-900/90 backdrop-blur-md p-8 text-white">
-          <h2 className="text-2xl font-bold mb-2">Card con borde RGB</h2>
-          <p className="text-gray-300">Efecto RGB animado con TailwindCSS y gradiente animado.</p>
-        </div>
-      </div> */}
-
       <style>{`
         @keyframes rgb {
           0% { background-position: 0% 50%; }
