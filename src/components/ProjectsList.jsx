@@ -8,26 +8,29 @@ const ProjectsList = () => {
             title: "Monitor de Bitcoin y Crypto",
             description: "App para monitorear el precio de las criptomonedas en tiempo real.",
             tech: ["React", "JS", "Tailwind", "API Rest"],
-            gifUrl: "https://i.postimg.cc/vmbV5y3S/crypto-tracker-screen.png"
+            gifUrl: "https://i.postimg.cc/vmbV5y3S/crypto-tracker-screen.png",
+            projectUrl: "https://cryptopunks-bitcoin-crypto-tracker.vercel.app/"
         },
         {
             title: "Weather App",
-            description: "App para buscar una ciudad y ver su clima actual y predictivo. También puedes guardarla para tener el clima de tu ciudad en favoritos.",
-            tech: ["React", "Node.js", "CSS"],
-            gifUrl: "https://i.postimg.cc/tR5m6RD0/weather-app-screen.png"
+            description: "Busca el clima de una ciudad, mira sus detalles adicionales y pinéala en favoritos.",
+            tech: ["React", "JS", "Tailwind", "API Rest"],
+            gifUrl: "https://i.postimg.cc/tR5m6RD0/weather-app-screen.png",
+            projectUrl: "https://weather-app-sage-two-25.vercel.app/"
         },
         {
             title: "Toast Notifications",
             description: "Una app que muestra como se pueden hacer notificaciones en tiempo real aplicando buenas prácticas en React.",
-            tech: ["React", "Node.js", "CSS"],
-            gifUrl: "https://i.postimg.cc/nVkwmV2y/toast-notifications-screen.png"
+            tech: ["React", "Node.js", "CSS", "JS"],
+            gifUrl: "https://i.postimg.cc/nVkwmV2y/toast-notifications-screen.png",
+            projectUrl: "http://toast-notifications-ten.vercel.app/"
         }
     ]
 
     return (
-        <div className='bg-black/70 md:px-4 lg:px-4'>
-            <div className='w-full text-center py-8 text-white font-black text-xl'>MIS PROYECTOS</div>
-            <div className='flex flex-wrap justify-center gap-6'>
+        <div className='bg-black/70'>
+            <div className='w-full text-center text-white font-black py-10'>MIS PROYECTOS</div>
+            <div className='flex flex-wrap justify-center gap-8'>
                 {project.map(project => (
                     <ProjectCard
                         key = {project.key} // Importante: usa una key única
@@ -35,6 +38,7 @@ const ProjectsList = () => {
                         description = {project.description}// Pasas el objeto completo como prop
                         tech = {project.tech}
                         gifUrl = {project.gifUrl}
+                        projectUrl= {project.projectUrl}
                     />
                 ))}
             </div>
