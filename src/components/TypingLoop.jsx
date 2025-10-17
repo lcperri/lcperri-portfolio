@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 
 export default function TypingLoop() {
   const textos = [
-    "¡Hola, soy Luis Pérez!",
-    "Desarrollador Web app",
+    "¡Hola, mi nombre es Luis Pérez!",
+    "Desarrollador Web App",
     "Diseñador UX/UI",
   ];
 
