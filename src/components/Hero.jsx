@@ -21,18 +21,18 @@ const Hero = () => {
             </style>
         </div>
         <div className="flex flex-col items-center text-center">
-            <div className='md:w-[80%] lg:w-[63%] p-10 md:py-10 lg:py-15 space-y-10 '>
-                <div className="text-left md:mt-6 font-bold text-base md:text-xl lg:text-xl">
+            <div className='md:w-[80%] lg:w-[63%] p-10 md:py-10 lg:py-15 space-y-12 md:text-xl lg:text-xl'>
+                <div className="text-left md:mt-6 font-bold ">
                     <span className='text-white'>
-                        Hola&nbsp;
+                        Hola,&nbsp;
                     </span>
                     <span>
                         soy Luis Pérez,&nbsp;
                     </span>
-                    <span className='font-light text-base'>
+                    <span className='font-light     '>
                     profesional en computación e informática, apasionado por la tecnología y la programación web.
                     </span>
-                    <p className='font-light text-base hidden sm:block pt-8'>
+                    <p className='font-light hidden sm:block pt-8'>
                     Me gusta estar en constante aprendizaje de las últimas tecnologías, como la ciencia de datos, el aprendizaje automático
                     y la web 3.0 <span className='text-red-400'>¡El futuro lo hacen los desarrolladores!</span>
                     </p>

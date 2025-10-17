@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = ({ key, title, description, tech, gifUrl, projectUrl }) => {
   return (
-    <div className="flex flex-wrap lg:flex-nowrap w-[94%] md:w-140 lg:w-170 border-4 border-pink-100 border-90s-purple text-white bg-black
+    <div className="flex flex-wrap lg:flex-nowrap w-[94%] md:w-140 lg:w-180 border-4 border-pink-100 border-90s-purple text-white bg-black
     p-6 md:p-14 lg:p-12 gap-4 transform hover:scale-105 transition-transform">
       <div index={key} className='flex flex-col gap-4 lg:w-[55%]' >
         <h3 className="font-black mb-2">{title}</h3>
@@ -19,7 +19,7 @@ const ProjectCard = ({ key, title, description, tech, gifUrl, projectUrl }) => {
         <img 
           src={gifUrl}
           alt={title} 
-          className="rounded-2xl md:w-110 md:h-65 lg:w-90 lg:h-54"
+          className="rounded-2xl md:w-110 md:h-65 lg:w-100 lg:h-54"
         />
         <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="w-40 md:bottom-10 md:p-3 lg:p-3  bg-white border-2 
         border-white px-4 py-2 text-black/80 rounded-md shadow-md hover:bg-red-400 transition text-center">
