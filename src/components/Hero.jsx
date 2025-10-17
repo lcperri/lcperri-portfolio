@@ -37,7 +37,7 @@ import TypingLoop from './TypingLoop'
                         </p>
                     </div> 
                     <p className='text-left'>
-                        Tecnologías en las que me desenvuelvo:
+                        Tecnologías que manejo:
                     </p>
                     <p>
                         <div>
