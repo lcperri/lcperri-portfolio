@@ -29,7 +29,7 @@ const ProjectsList = () => {
 
     return (
         <div className='bg-black/70'>
-            <div className='w-full text-center text-white text-xl py-10'>MIS PROYECTOS</div>
+            <div className='w-full text-center text-white py-10'>MIS PROYECTOS</div>
             <div className='flex flex-wrap justify-center gap-8'>
                 {project.map(project => (
                     <ProjectCard
