@@ -22,9 +22,9 @@ import TypingLoop from './TypingLoop'
                 </style>
             </div>
             <div className="flex flex-col items-center text-center">
-                <div className='md:w-[80%] lg:w-[63%] p-10 md:py-10 lg:py-15 space-y-8 lg:space-y-12 md:text-xl lg:text-xl'>
+                <div className='md:w-[80%] lg:w-[63%] p-10 md:py-10 space-y-8 lg:space-y-12 md:text-xl lg:text-xl'>
                     <div className="text-left md:mt-6 ">                      
-                        <div className='mb-8 text-xl md:text-2xl lg:text-3xl md:mb-16 font-bold'>
+                        <div className='mb-8 text-xl md:text-2xl lg:text-3xl md:mb-14 font-bold'>
                             <TypingLoop/>
                         </div> 
                         <span className='text-red-400 font-bold'>
@@ -32,7 +32,7 @@ import TypingLoop from './TypingLoop'
                         </span>
                         en computación e informática, apasionado por la tecnología y la programación web.
                         <p className='font-light hidden sm:block pt-8'>
-                        Me gusta estar en constante aprendizaje de las últimas tecnologías, como la ciencia de datos, el aprendizaje automático
+                        Me gusta estar en constante aprendizaje en temas como la ciencia de datos, el aprendizaje automático
                         y la web 3.0 <span className='text-red-400'>¡El futuro lo hacen los desarrolladores!</span>
                         </p>
                     </div> 
@@ -40,18 +40,18 @@ import TypingLoop from './TypingLoop'
                         Tecnologías que manejo:
                     </p>
                     <p>
-                        <div>
+                        <div > 
                             FrontEnd:
-                        </div>
-                        <div>
+                        </div >
+                        <div className='text-white mt-4'>
                             HTML | CSS | JS | React | Tailwind | Typescript | React Native
                         </div>
                     </p>
                     <p >
-                        <div>
+                        <div >
                             Backend:
                         </div>
-                        <div>
+                        <div className='text-white mt-4'>
                             Node JS | SQL | Express | Python
                         </div>
                     </p>
