@@ -13,7 +13,7 @@ const ProjectsList = () => {
         },
         {
             title: "Weather App",
-            description: "Obtén el clima de una ciudad y sus detalles con esta app. Puedes pinearla en favoritos.",
+            description: "Busca una ciudad y obtén su clima actual y predicciones del tiempo. Puedes guardar la ciudad en favoritos.",
             tech: ["React", "JS", "CSS", "API Rest"],
             gifUrl: "https://i.postimg.cc/tR5m6RD0/weather-app-screen.png",
             projectUrl: "https://weather-app-sage-two-25.vercel.app/"
