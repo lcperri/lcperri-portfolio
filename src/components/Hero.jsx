@@ -32,12 +32,12 @@ import TypingLoop from './TypingLoop'
                         </span>
                         en computación e informática, apasionado por la tecnología y la programación web.
                         <p className='font-light hidden sm:block pt-8'>
-                        Me gusta estar en constante aprendizaje en temas como la ciencia de datos, el aprendizaje automático
+                        Me gusta estar en constante aprendizaje de temas como la ciencia de datos, el aprendizaje automático
                         y la web 3.0 <span className='text-red-400'>¡El futuro lo hacen los desarrolladores!</span>
                         </p>
                     </div> 
                     <p className='text-left'>
-                        Tecnologías que manejo:
+                        ALgunas herramientas que manejo:
                     </p>
                     <p>
                         <div > 

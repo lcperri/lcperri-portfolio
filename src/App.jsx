@@ -1,7 +1,7 @@
 import React from 'react'
+import Projects from './pages/Projects'
 import Home from './pages/Home'
 import About from './pages/About'
-import ProjectsList from './components/ProjectsList'
 import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/projects" element={<ProjectsList />} />
+      <Route path="/projects" element={<Projects />} />
     </Routes>
   )
 }
