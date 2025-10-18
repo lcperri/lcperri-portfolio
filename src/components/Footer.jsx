@@ -31,7 +31,7 @@ return (
         </div>
 
         <p className="text-gray-400 text-center px-4">
-            © 2025 <span className="italic text-white">Luis Carlos Per Ri. &nbsp;</span>
+            2025 © <span className="italic text-white">Luis Carlos Per Ri. &nbsp;</span>
             Hecho con <span className="text-pink-600">❤</span> desde Perú.
         </p>
 
