@@ -22,8 +22,8 @@ const ProjectCard = ({ key, title, description, tech, gifUrl, projectUrl }) => {
               alt={title} 
               className="rounded-2xl md:w-100 md:h-65 lg:w-95 lg:h-54 mt-8 lg:mt-0 mx-auto"
             />
-            <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="md:bottom-4 p-4 bg-red-400 md:bg-white border-2 
-            border-white text-black/80 rounded-md shadow-md hover:bg-red-400">
+            <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="md:bottom-4 px-3 py-4 bg-red-400 md:bg-white border-2 
+            border-white text-black/80 rounded-md shadow-md hover:bg-red-400 text-sm md:text-base">
               Ver proyecto
             </a>
           </div>
