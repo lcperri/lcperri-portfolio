@@ -6,8 +6,8 @@ const ProjectCard = ({ key, title, description, tech, gifUrl, projectUrl }) => {
     relative p-[3px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 animate-[rgb_3s_linear_infinite] shadow-[0_0_20px_rgba(236,72,153,0.6)]">
         <div className="lg:flex gap-5 p-8 bg-black/90 backdrop-blur-md text-white ">
           <div index={key} className='flex flex-col gap-4 lg:w-[55%] ' >
-            <h3 className="font-black mb-2">{title.toUpperCase()}</h3>
-            <p className="">{description}</p>
+            <h3 className="mb-2 ">{title.toUpperCase()}</h3>
+            <p className="text-[15px] md:text-base">{description}</p>
             <div className="flex flex-wrap">
               {tech.map((t, index) => (
                 <span index={index} className="text-xs mt-2">

@@ -7,7 +7,7 @@ import TypingLoop from './TypingLoop'
             <div>
                 {/* Simulación del <marquee> con Tailwind + animación */}
                 <div className="overflow-hidden bg-black/30 text-green-400 py-2  ">
-                    <p className="whitespace-nowrap animate-[scroll_10s_linear_infinite] text-xl">
+                    <p className="whitespace-nowrap animate-[scroll_10s_linear_infinite] md:text-xl">
                     Back to The 90s! ✨💾🖱️
                     </p>
                 </div>
@@ -22,9 +22,9 @@ import TypingLoop from './TypingLoop'
                 </style>
             </div>
             <div className="flex flex-col items-center text-center">
-                <div className='md:w-[80%] lg:w-[63%] p-10 md:py-10 space-y-8 lg:space-y-12 md:text-xl lg:text-xl'>
+                <div className='w-[94%] md:w-[80%] lg:w-[63%] p-10 md:py-10 space-y-8 lg:space-y-12 text-sm md:text-xl lg:text-xl'>
                     <div className="text-left md:mt-6 ">                      
-                        <div className='mb-8 text-xl md:text-2xl lg:text-3xl md:mb-14 font-bold'>
+                        <div className='mb-8 text-[18px] md:text-2xl lg:text-3xl md:mb-14 font-bold'>
                             <TypingLoop/>
                         </div> 
                         <span className='text-red-400 font-bold'>
@@ -37,7 +37,7 @@ import TypingLoop from './TypingLoop'
                         </p>
                     </div> 
                     <p className='text-left'>
-                        ALgunas herramientas que manejo:
+                        Tecnologías que manejo:
                     </p>
                     <p>
                         <div > 
