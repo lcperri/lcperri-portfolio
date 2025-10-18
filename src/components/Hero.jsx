@@ -8,7 +8,7 @@ import TypingLoop from './TypingLoop'
                 {/* Simulación del <marquee> con Tailwind + animación */}
                 <div className="overflow-hidden bg-black/30 text-green-400 py-2  ">
                     <p className="whitespace-nowrap animate-[scroll_10s_linear_infinite] text-xl">
-                    Back to 90s! ✨💾🖱️
+                    Back to The 90s! ✨💾🖱️
                     </p>
                 </div>
 
